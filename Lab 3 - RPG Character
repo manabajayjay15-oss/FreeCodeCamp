@@ -25,4 +25,4 @@ def create_character(name, strength, intelligence, charisma):
     charisma_dots = full_dot * charisma + empty_dot * (10 - charisma)
 
     return f'{name}\nSTR {strength_dots}\nINT {intelligence_dots}\nCHA {charisma_dots}'
-   
+ print('Jay Jay', 3, 3, 4)
